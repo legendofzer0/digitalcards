@@ -10,7 +10,7 @@ const UserCard = ({ name, bio, linkedInUrl, githubUrl, email, website }) => {
       <Card title="" bordered={true} style={{ width: 300 }}>
         <Image
           preview={false}
-          src={`${AVATAR_API}/?name=Pravesh Chapagain&background=1890ff&color=fff`}
+          src={`${AVATAR_API}/?name=Jenish Maharjan&background=1890ff&color=fff`}
         />
 
         <Typography.Title level={5}>{name}</Typography.Title>
